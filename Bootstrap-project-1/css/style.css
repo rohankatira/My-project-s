@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* header */
 
 nav ul li:last-child {
     border-color: #5758e0 !important;
@@ -12,4 +13,8 @@ nav ul li:last-child {
 nav ul li:last-child:hover{
     background-image: linear-gradient(to right, blue, lightblue);
     color: white;
+}
+nav ul li a:hover{
+    color: #5758e0 !important;
+    transition: ease-in .5s;
 }
