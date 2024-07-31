@@ -18,3 +18,8 @@ nav ul li:not(:last-child) a:hover{
     color: #5758e0 !important;
     transition: ease-in .5s;
 }
+
+/* slider */
+.carousel-item{
+    background: url();
+}
