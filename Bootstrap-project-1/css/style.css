@@ -14,7 +14,7 @@ nav ul li:last-child:hover{
     background-image: linear-gradient(to right, blue, lightblue);
     color: white;
 }
-nav ul li a:hover{
+nav ul li:not(:last-child) a:hover{
     color: #5758e0 !important;
     transition: ease-in .5s;
 }
