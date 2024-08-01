@@ -21,5 +21,10 @@ nav ul li:not(:last-child) a:hover{
 
 /* slider */
 .carousel-item{
-    background: url();
+    background: url(../img/background2.jpg);
+    /* height: 400px;  */
+    background-size: cover;
+}
+.carouseal-contain a{
+    background-color: #5758e0 !important;
 }
