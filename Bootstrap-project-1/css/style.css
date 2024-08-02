@@ -11,7 +11,7 @@ nav ul li:last-child {
 }
 
 nav ul li:last-child:hover{
-    background-image: linear-gradient(to right, blue, lightblue);
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
     color: white;
 }
 nav ul li:not(:last-child) a:hover{
@@ -21,13 +21,69 @@ nav ul li:not(:last-child) a:hover{
 
 /* slider */
 .carousel-item{
-    background: url(../img/background2.jpg);
-    height: 400px; 
+    background: url(../img/background2.jpg),rgba(0, 0, 0, 0.7);
+    height: 90vh; 
     background-size: cover;
+    background-blend-mode: color-burn;
 }
 .carouseal-contain a{
     background-color: #5758e0 !important;
 }
-.carouseal-contain{
-    padding: 100px;
+.carouseal-contain a:hover{
+    background-image: linear-gradient(to right,#5758e0,#56a8d6) ;
+    transition: ease-in 0.5s; 
 }
+.carouseal-contain{
+    padding: 150px 0px ;
+}
+.carouseal-contain>h1{
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
+    background-clip: text;
+    color: transparent;
+} 
+
+/* SERVICES */
+
+.services-coitain>a>i:first-child {
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
+    background-clip: text;
+    color: transparent;
+  }
+
+  .services {
+    padding: 100px 0px;
+  }
+  
+
+  .services-coitain:hover {
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
+  }
+  .services-coitain:hover .color {
+    color: white !important;
+  }
+
+
+  .services .col-lg-4:first-child .services-coitain a::before {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
+    content: "";
+    border-top-left-radius: 15px;
+    width: 85%;
+    height: 70%;
+    z-index: -1;
+  }
+  
+  .services .col-lg-4:last-child .services-coitain a::before {
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
+    content: "";
+    border-bottom-right-radius: 15px;
+    width: 85%;
+    height: 70%;
+    z-index: -1;
+  }
+  
