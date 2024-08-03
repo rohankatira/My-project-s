@@ -57,6 +57,12 @@ nav ul li:not(:last-child) a:hover{
 
   .services-coitain:hover {
     background-image: linear-gradient(to right,#5758e0,#56a8d6);
+    transform: translateY(-10px);
+    transition: ease-in .2s;
+  }
+  .services-coitain:hover a::before{
+    display: none;
+    transition: ease-in .2s;
   }
   .services-coitain:hover .color {
     color: white !important;
@@ -66,24 +72,24 @@ nav ul li:not(:last-child) a:hover{
   .services .col-lg-4:first-child .services-coitain a::before {
     position: absolute;
     top: -20px;
-    left: -20px;
+    left: -10px;
     background-image: linear-gradient(to right,#5758e0,#56a8d6);
     content: "";
-    border-top-left-radius: 15px;
-    width: 85%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     z-index: -1;
   }
   
   .services .col-lg-4:last-child .services-coitain a::before {
     position: absolute;
-    right: -20px;
+    right: -10px;
     bottom: -20px;
     background-image: linear-gradient(to right,#5758e0,#56a8d6);
     content: "";
-    border-bottom-right-radius: 15px;
-    width: 85%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     z-index: -1;
   }
+
+  /* about-us */
   
