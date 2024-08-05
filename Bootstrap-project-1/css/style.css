@@ -15,7 +15,7 @@ nav ul li:last-child:hover{
     color: white;
 }
 nav ul li:not(:last-child) a:hover{
-    color: #5758e0 !important;
+    color: #56a8d6!important;
     transition: ease-in .5s;
 }
 
@@ -92,6 +92,9 @@ nav ul li:not(:last-child) a:hover{
   }
 
   /* about-us */
+  .about-us{
+    background-color: #191919;
+  }
   
 
   .about-us span {
@@ -111,5 +114,5 @@ nav ul li:not(:last-child) a:hover{
 
     background-image: linear-gradient(to right,#5758e0,#56a8d6);
     background-clip: text;
-    color: transparent;
+    color: transparent;   
   }
