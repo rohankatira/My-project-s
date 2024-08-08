@@ -116,3 +116,34 @@ nav ul li:not(:last-child) a:hover{
     background-clip: text;
     color: transparent;   
   }
+
+
+  /*  */
+
+  .portfolio-img {
+  height: 31rem;
+}
+
+.portfolio-img img{
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+}
+
+.portfolio-card .card-img-overlay {
+  opacity: 0%;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-10px);
+  transition: 0.2s;
+}
+
+.portfolio-card .card-img-overlay:hover {
+  background-image: linear-gradient(to right,#5758e0,#56a8d6);
+  opacity: 100%;
+}
+
+.portfolio-inner-content {
+  margin-top: 70%;
+}
