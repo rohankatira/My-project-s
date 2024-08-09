@@ -147,3 +147,22 @@ nav ul li:not(:last-child) a:hover{
 .portfolio-inner-content {
   margin-top: 70%;
 }
+
+/* video */
+
+.video-inner img {
+  object-fit: cover;
+  height: 500px;
+}
+
+.video-inner i {
+  font-size: 150px;
+  background-image: linear-gradient(to right,#5758e0,#56a8d6);
+  background-clip: text;
+  color: transparent;
+}
+
+.video-inner i:hover {
+  font-size: 180px;
+  transition: 0.2s;
+}
