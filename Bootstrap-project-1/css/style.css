@@ -166,3 +166,24 @@ nav ul li:not(:last-child) a:hover{
   font-size: 180px;
   transition: 0.2s;
 }
+
+/*  */
+.testimonial-card .card img {
+  width: 100px;
+}
+
+.testimonial-card .card:hover {
+  background-image: linear-gradient(to right, #5758e0, #56a8d6);
+  transform: translateY(-10px);
+  transition: ease-in 0.2s;
+}
+
+.testimonial-card .card:hover .color {
+  color: white !important;
+}
+
+.testimonial-rating i {
+  background-image: linear-gradient(to right, #5758e0,#56a8d6);
+  background-clip: text;
+  color: transparent;
+}
