@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    background: url(../images/background.jpg);
+    height: 100vh    ;
+}
+.logo{
+    height: 55px;
+    width: 55px;
+}
+.nav-link{
+    color: #000 !important;
+}
+.nav-link:hover{
+    color: orange !important;
+}
+.banner-img img{
+    height: 75% !important;
+    width: 75% !important;
+}
+.banner-header{
+    color: #F75023;
+}
+.orange{
+    color: #1cbe59;
+}
+.Green{
+    color: #8067f0;
+}
